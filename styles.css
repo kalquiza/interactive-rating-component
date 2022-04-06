@@ -1,0 +1,40 @@
+:root {
+  /* Colors */
+  /* Primary */
+  --orange: hsl(25, 97%, 53%);
+  /* Neutral */
+  --white: hsl(0, 0%, 100%);
+  --light-grey: hsl(217, 12%, 63%);
+  --medium-grey: hsl(216, 12%, 54%);
+  --dark-blue: hsl(213, 19%, 18%);
+  --very-dark-blue: hsl(216, 12%, 8%);
+
+  /* Typography */
+  --font-size-body: 15px;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+}
+
+/* Font */
+@font-face {
+  font-family: Overpass;
+  src: url(./fonts/Overpass-VariableFont_wght.ttf);
+}
+
+body {
+  font-family: Overpass;
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-normal);
+  color: var(--white);
+  background-color: var(--very-dark-blue);
+}
+
+/* Mobile */
+@media (min-width: 375px) {
+
+}
+
+/* Desktop */
+@media only screen and (min-width: 1440px) {
+
+}
