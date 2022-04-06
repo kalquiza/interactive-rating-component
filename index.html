@@ -18,29 +18,68 @@
 <body>
 
   <!-- Rating state start -->
+  <div>
+    <img src="/images/icon-star.svg">
+    <h1>How did we do?</h1>
 
-  How did we do?
+    <p>
+      Please let us know how we did with your support request. All feedback is appreciated 
+      to help us improve our offering!
+    </p>
 
-  Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!
+    <form action="/" method="GET">
+      <div>
+        <input type="radio" id="rating-1" name="rating" value="1">
+        <label for="rating-1">
+          <span>1</span>
+        </label>
+      </div>
 
-  1 2 3 4 5
+      <div>
+        <input type="radio" id="rating-2" name="rating" value="2">
+        <label for="rating-2">
+          <span>2</span>
+        </label>
+      </div>
 
-  Submit
+      <div>
+        <input type="radio" id="rating-3" name="rating" value="3">
+        <label for="rating-3">
+          <span>3</span>
+        </label>
+      </div>
 
+      <div>
+        <input type="radio" id="rating-4" name="rating" value="4">
+        <label for="rating-4">
+          <span>4</span>
+        </label>
+      </div>
+
+      <div>
+        <input type="radio" id="rating-5" name="rating" value="5">
+        <label for="rating-5">
+          <span>5</span>
+        </label>
+      </div>
+    <button>Submit</button>
+  </form>
+
+  </div>
   <!-- Rating state end -->
 
   <!-- Thank you state start -->
+  <div>
+    <img src="/images/illustration-thank-you.svg">
+    <div>You selected <!-- Add rating here --> out of 5</div>
+    <h1>Thank you!</h1>
 
-  You selected <!-- Add rating here --> out of 5
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
-
+    <p>
+      We appreciate you taking the time to give a rating. If you ever need more support,
+      don’t hesitate to get in touch!
+    </p>
+  </div>
   <!-- Thank you state end -->
-
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
