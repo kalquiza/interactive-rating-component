@@ -41,6 +41,7 @@ p {
   color: var(--light-grey);
   font-size: 14px;
   line-height: 1.5em;
+  margin-bottom: 28px;
 }
 
 .rating-container {
@@ -64,6 +65,10 @@ p {
 .rating-badge img {
   width: 35%;
   height: auto;
+}
+
+#rating-form > * {
+  margin-bottom: 28px;
 }
 
 .custom-radios {
