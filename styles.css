@@ -41,6 +41,21 @@ body {
   background-color: var(--very-dark-blue);
 }
 
+.rating-badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: var(--dark-blue);
+}
+
+.rating-badge img {
+  width: 35%;
+  height: auto;
+}
+
 .custom-radios {
   display: flex;
   justify-content: center;
