@@ -30,6 +30,14 @@ body {
   font-size: var(--font-size-body);
   font-weight: var(--font-weight-normal);
   color: var(--white);
+  background-color: black;
+}
+
+.rating-container {
+  width: 280px;
+  height: 310px;
+  padding: 25px;
+  border-radius: 15px;
   background-color: var(--very-dark-blue);
 }
 
