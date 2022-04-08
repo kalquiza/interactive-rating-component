@@ -75,6 +75,22 @@ input[type="radio"]:hover + label span {
   color: var(--white);
 }
 
+#rating-submit {
+   width: 280px;
+   height: 45px;
+   border: none;
+   border-radius: 99em;
+   letter-spacing: .14em;
+   color: var(--white);
+   background-color: var(--orange);
+   cursor: pointer;
+}
+
+#rating-submit:hover {
+  background-color: var(--white);
+  color: var(--orange);
+}
+
 /* Mobile */
 @media (min-width: 375px) {
 
