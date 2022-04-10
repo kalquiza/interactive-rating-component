@@ -135,6 +135,10 @@ input[type="radio"]:hover + label span {
   color: var(--orange);
 }
 
+.hide {
+  display: none;
+}
+
 /* Mobile */
 @media (min-width: 375px) {
 
