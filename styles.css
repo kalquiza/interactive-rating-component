@@ -41,6 +41,9 @@ p {
   color: var(--light-grey);
   font-size: 14px;
   line-height: 1.5em;
+}
+
+.rating-response p {
   margin-bottom: 28px;
 }
 
@@ -133,6 +136,39 @@ input[type="radio"]:hover + label span {
 #rating-submit:hover {
   background-color: var(--white);
   color: var(--orange);
+}
+
+.rating-confirm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rating-confirm img{
+  margin-bottom: 24px;
+}
+
+.rating-confirm-text {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  width: 165px;
+  height: 32px;
+  margin-bottom: 14px;
+  border-radius: 99em;
+  font-size: 14px;
+  color: var(--orange);
+  background-color: var(--dark-blue);
+}
+
+.rating-confirm h1 {
+  margin: 14px 0;
+  text-align: center;
+}
+
+.rating-confirm p {
+  margin: 10px 0;
+  text-align: center;
 }
 
 .hide {
