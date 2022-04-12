@@ -172,7 +172,15 @@ input[type="radio"]:hover + label span {
 }
 
 .hide {
-  display: none;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.active {
+  transition: opacity 0.5s ease-out;
+  opacity: 1;
+  height: auto;
 }
 
 /* Mobile */
